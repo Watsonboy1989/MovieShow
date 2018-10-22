@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBluePrimary</item>
+        <item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:editTextColor">@color/colorRedPrimary</item>
+        <item name="android:textColorHint">@color/colorRedPrimaryLight</item>
+
+    </style>
+    <style name="MyTextHighLight">
+        <item name="android:textColor">#D9D9D9</item>
+        <item name="android:lineSpacingMultiplier">1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MyText">
+        <item name="android:textColor">#D9D9D9</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+</resources>
